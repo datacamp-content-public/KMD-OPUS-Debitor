@@ -1,9 +1,11 @@
 ---
 title: Template Chapter 1
-description: This is a template chapter.
----
+description: >-
+  This is a template chapter.
 
-## Ex 1.1
+
+---
+## Importer OPUS data fra 65 x 80 format
 
 ```yaml
 type: NormalExercise
@@ -13,7 +15,7 @@ skills: 1
 key: e6f9452bb7
 ```
 
-Do some data science.
+Library(reader)
 
 `@instructions`
 
@@ -22,25 +24,11 @@ Do some data science.
 
 
 `@pre_exercise_code`
-
 ```{r}
-
+Library(reader)
 ```
 
-`@sample_code`
 
-```{r}
 
-```
 
-`@solution`
 
-```{r}
-
-```
-
-`@sct`
-
-```{r}
-
-```
